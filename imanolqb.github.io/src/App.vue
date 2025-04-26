@@ -1,85 +1,75 @@
-<script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
-
-  <RouterView />
+  <div class="app">
+    <LanguageSelector />
+    <main>
+      <Sidebar />
+      <div class="main-content">
+        <NavBar />
+        <router-view />
+      </div>
+    </main>
+  </div>
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
+<script lang="ts">
+import { defineComponent } from 'vue';
+import LanguageSelector from '@/components/common/LanguageSelector.vue';
+import Sidebar from '@/components/sidebar/Sidebar.vue';
+import NavBar from '@/components/common/NavBar.vue';
+
+export default defineComponent({
+  name: 'App',
+  components: {
+    LanguageSelector,
+    Sidebar,
+    NavBar
+  }
+});
+</script>
+
+<style>
+/* Estilos globales */
+
+:root {
+  --navbar-height: 60px;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+.app {
+  min-height: 100vh;
+  background: var(--smoky-black);
+  color: var(--white-2);
+  font-family: var(--ff-poppins);
 }
 
-nav {
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-nav a.router-link-exact-active {
-  color: var(--color-text);
+.main-content {
+  flex: 1;
+  margin-bottom: var(--navbar-height);
 }
 
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+@media (min-width: 1250px) {
+  main {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 60px 25px;
   }
 
-  .logo {
-    margin: 0 2rem 0 0;
+  .sidebar {
+    position: sticky;
+    top: 60px;
+    flex: 0 0 300px;
   }
 
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
+  .main-content {
+    flex: 1;
   }
 }
 </style>

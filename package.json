@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@types/node": "^22.15.0"
+  },
+  "dependencies": {
+    "@ionic/core": "^8.5.5",
+    "@ionic/vue": "^8.5.5",
+    "ionicons": "^7.4.0",
+    "vue-i18n": "11.1.2"
+  }
+}

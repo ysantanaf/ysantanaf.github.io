@@ -5,13 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ce81d03-1e80-4309-988d-b485fc0f8c81" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/prueba/html_sst.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/prueba/to_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tfg/region_visualization/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tfg/region_visualization/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/tfg/region_visualization/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/imanolqb.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/imanolqb.github.io.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/assets/i18n.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/assets/images/airplane-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/assets/images/airplane-outline1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/assets/images/book-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/assets/images/calendar-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/assets/images/contact-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/assets/images/job-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/assets/images/location-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/assets/images/mail-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/assets/locales/en-US.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/assets/locales/es-ES.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/assets/locales/fr-FR.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/components/about/AboutTextSection.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/components/about/ExperienceItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/components/about/ExperienceSection.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/components/about/ServiceItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/components/about/ServicesSection.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/components/common/IconBox.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/components/common/SocialLink.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/components/contact/ContactForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/components/contact/ContactMap.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/components/portfolio/ProjectFiltersSection.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/components/portfolio/ProjectItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/components/portfolio/ProjectSection.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/components/resume/EducationSection.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/components/resume/ExperienceTimelineSection.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/components/resume/TimelineItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/components/sections/ContactSection.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/components/sections/PortfolioSection.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/components/sidebar/Sidebar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/shims-vue-i18n.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/views/ContactView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/views/PortfolioView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/views/ResumeSection.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imanolqb.github.io/src/views/TfgView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imanolqb.github.io/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/imanolqb.github.io/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imanolqb.github.io/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/imanolqb.github.io/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imanolqb.github.io/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/imanolqb.github.io/src/assets/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imanolqb.github.io/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imanolqb.github.io/src/components/TheWelcome.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imanolqb.github.io/src/components/WelcomeItem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imanolqb.github.io/src/components/icons/IconCommunity.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imanolqb.github.io/src/components/icons/IconDocumentation.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imanolqb.github.io/src/components/icons/IconEcosystem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imanolqb.github.io/src/components/icons/IconSupport.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imanolqb.github.io/src/components/icons/IconTooling.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imanolqb.github.io/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/imanolqb.github.io/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imanolqb.github.io/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/imanolqb.github.io/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imanolqb.github.io/src/views/AboutView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/imanolqb.github.io/src/views/AboutView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imanolqb.github.io/src/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/imanolqb.github.io/src/views/HomeView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +68,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="package.json" />
         <option value="Python Script" />
+        <option value="CSS File" />
+        <option value="TypeScript File" />
+        <option value="tsconfig.json" />
+        <option value="Vue Composition API Component" />
       </list>
     </option>
   </component>
@@ -45,6 +94,9 @@
     &quot;accountId&quot;: &quot;cf74a305-d6a8-4e06-8e77-08eefffe3c84&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/imanolqb.github.io/node_modules/vite/client.d.ts" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -58,8 +110,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;JavaScript Debug.html_sst.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Python.app.executor&quot;: &quot;Run&quot;,
     &quot;Python.correlations-heat-map.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
@@ -69,8 +123,11 @@
     &quot;Python.variables-over-region.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/imano/Desktop/IMANOL/projects/imanolqb.github.io/docs/tfg/assets&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;vue-dev&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.14.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.14.1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/imano/Desktop/IMANOL/projects/imanolqb.github.io/imanolqb.github.io/src/assets/images&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -78,15 +135,23 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.3.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\imano\\Desktop\\IMANOL\\projects\\imanolqb.github.io\\imanolqb.github.io\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\imano\Desktop\IMANOL\projects\imanolqb.github.io\imanolqb.github.io\src\assets\images" />
       <recent name="C:\Users\imano\Desktop\IMANOL\projects\imanolqb.github.io\docs\tfg\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\imano\Desktop\IMANOL\projects\imanolqb.github.io\imanolqb.github.io\src\views" />
+      <recent name="C:\Users\imano\Desktop\IMANOL\projects\imanolqb.github.io\imanolqb.github.io\src\assets\locales" />
       <recent name="C:\Users\imano\Desktop\IMANOL\projects\imanolqb.github.io\docs\tfg\region_visualization" />
       <recent name="C:\Users\imano\Desktop\IMANOL\projects\imanolqb.github.io\docs\visualizacion" />
     </key>
@@ -153,11 +218,22 @@
       <workItem from="1745427678716" duration="28000" />
       <workItem from="1745427713868" duration="1000" />
       <workItem from="1745427718439" duration="2000" />
+      <workItem from="1745459134823" duration="2164000" />
+      <workItem from="1745498231113" duration="1219000" />
+      <workItem from="1745522835585" duration="280000" />
+      <workItem from="1745523135551" duration="25304000" />
+      <workItem from="1745585969366" duration="7928000" />
+      <workItem from="1745617970987" duration="13637000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="additionalRoots">
+      <list>
+        <option value="$PROJECT_DIR$/.venv/Lib/site-packages/panel/dist/dts" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

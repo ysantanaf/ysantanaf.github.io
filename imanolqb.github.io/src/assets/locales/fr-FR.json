@@ -1,0 +1,96 @@
+{
+  "navbar": {
+    "about": "À propos",
+    "resume": "Résumé",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "tfg": "TFG"
+  },
+  "sidebar": {
+    "job-title": "Étudiant en Génie Informatique",
+    "contact-email-title": "EMAIL",
+    "contact-email": "imanolquinber26@gmail.com",
+    "contact-birthday-title": "DATE DE NAISSANCE",
+    "contact-birthday": "October 9, 2003",
+    "contact-location-title": "EMPLACEMENT",
+    "contact-location": "Telde, Grande Canarie, Îles Canaries"
+  },
+  "about": {
+    "title": "À Propos De Moi",
+    "text": {
+      "p1": "Né à Gran Canaria, j'ai terminé mon enseignement secondaire et mon baccalauréat au Lycée José Arencibia Gil. Après avoir réussi l'examen d'entrée à l'université et ne pas être sûr de mon prochain pas, j'ai décidé de poursuivre un baccalauréat en ingénierie informatique à l'Université de Las Palmas de Gran Canaria. Mon intérêt pour les nouvelles technologies et les méthodologies appliquées aux situations quotidiennes et aux objectifs scientifiques a inspiré cette décision.",
+      "p2": "Au cours de ces années, j'ai développé une grande passion pour l'apprentissage et la croissance dans divers domaines, en particulier dans le développement de logiciels et l'adoption des meilleures pratiques de programmation.",
+      "p3": "Au cours de ma dernière année d'études, j'ai eu l'opportunité de faire un stage chez Aplicaciones Informáticas Domingo Alonso, la société mère du groupe automobile Domingo Alonso. Au cours de cette expérience, j'ai contribué au développement de fonctionnalités avancées de backend en utilisant des technologies modernes telles que .NET."
+    },
+    "services": {
+      "title": "Ce que je fais",
+      "studying": {
+        "title": "Étudier",
+        "text": "Participer à un apprentissage continu et acquérir de nouvelles compétences pour rester à jour avec les dernières tendances, connaissances et technologies."
+      },
+      "best-practices": {
+        "title": "Meilleures pratiques",
+        "text": "Toujours s'efforcer de suivre les meilleures pratiques en développement web. Cela inclut l'écriture de code propre et l'utilisation du contrôle de version."
+      },
+      "software-development": {
+        "title": "Développement de logiciels",
+        "text": "Intéressé par le domaine du développement de logiciels. Apprendre et appliquer continuellement de nouvelles technologies pour résoudre des problèmes complexes et améliorer les expériences des utilisateurs."
+      },
+      "keep-investigating": {
+        "title": "Continuons à enquêter!",
+        "text": "Mener des recherches approfondies pour fournir des informations et des connaissances de haute qualité."
+      }
+    },
+    "experience": {
+      "title": "Expérience Académique Et Professionnelle"
+    }
+  },
+  "resume": {
+    "title": "Résumé",
+    "education": {
+      "title": "Éducation",
+      "university": {
+        "title": "Université de Las Palmas de Gran Canaria",
+        "degree": "Diplôme En Génie Informatique",
+        "date": "2021 - Présent",
+        "description": "Baccalauréat en Génie Informatique, acquérir des compétences en développement de logiciels, en ingénierie des systèmes et en technologies émergentes."
+      },
+      "highschool": {
+        "title": "Lycée José Arencibia Gil",
+        "degree": "Baccalauréat en sciences et technologies",
+        "date": "2019 - 2021",
+        "description": "Enseignement secondaire et Baccalauréat Technologique, avec un accent sur les matières scientifiques, mathématiques et technologiques, développant des compétences fondamentales pour le domaine de l'ingénierie."
+      }
+    },
+    "experience": {
+      "title": "Expérience",
+      "internship": {
+        "company": "Aplicaciones Informáticas Domingo Alonso",
+        "position": "Stagiaire Développeur Logiciel",
+        "date": "oct. 2024 - déc. 2024",
+        "description": "Stage curriculaire de dernière année chez AIDA (Aplicaciones Informáticas Domingo Alonso), en tant que membre de l'équipe des ventes d'importation, contribuant au développement de fonctionnalités clés."
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "types": {
+      "all": "Tous",
+      "web": "Développement Web",
+      "applications": "Applications",
+      "projects": "Projets"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "contact-form": {
+      "title": "Contactez-moi",
+      "name": "Name Complet",
+      "email": "Adresse Email",
+      "message": "Votre Message",
+      "send": "Envoyer Le Message",
+      "success": "Message envoyé avec succès!",
+      "error": "Erreur lors de l'envoi du message. Veuillez réessayer plus tard."
+    }
+  }
+}
