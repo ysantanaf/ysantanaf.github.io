@@ -9,20 +9,31 @@
 </template>
 
 <script>
-export default {
-  name: 'ContactMap'
-};
-</script>
+import { defineComponent } from 'vue';
+import ContactForm from "@/components/contact/ContactForm.vue";
+import {useI18n} from "vue-i18n";
 
+export default defineComponent({
+  name: 'ContactMap',
+  components: {
+
+  },
+  setup() {
+    const { t } = useI18n();
+    return {
+      t,
+    };
+  }
+});
+
+</script>
 <style scoped>
 .mapbox {
   position: relative;
 }
-
 .mapbox figure {
   margin: 0;
 }
-
 .mapbox iframe {
   width: 100%;
   height: 300px;

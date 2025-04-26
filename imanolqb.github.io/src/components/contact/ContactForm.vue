@@ -40,52 +40,49 @@
 </template>
 
 <script>
+import { defineComponent } from 'vue';
+import { useI18n } from 'vue-i18n';
 import airplaneOutline from '@/assets/images/airplane-outline1.svg';
 
-export default {
+export default defineComponent({
   name: 'ContactForm',
   components: {
 
   },
-  data() {
-    return {
-      airplaneOutline,
-      formData: {
-        fullname: '',
-        email: '',
-        message: ''
-      },
-      isSubmitting: false
-    };
-  },
-  computed: {
-    isFormValid() {
-      return this.formData.fullname && this.formData.email && this.formData.message;
-    }
-  },
-  methods: {
-    async submitForm() {
-      this.isSubmitting = true;
+  setup() {
+    const { t } = useI18n();
+    const formData = ref({
+      fullname: '',
+      email: '',
+      message: ''
+    });
+    const isSubmitting = ref(false);
+    const isFormValid = computed(() => {
+      return formData.value.fullname && formData.value.email && formData.value.message;
+    });
 
-      try {
-        console.log('Formulario enviado:', this.formData);
-
-        this.formData = {
-          fullname: '',
-          email: '',
-          message: ''
-        };
-
-        alert(this.$t('contact.contact-form.success'));
-      } catch (error) {
-        console.error(this.$t('contact.contact-form.error'), error);
-        alert(this.$t('contact.contact-form.error'));
-      } finally {
-        this.isSubmitting = false;
+    const submitForm = () => {
+      if (isFormValid.value) {
+        isSubmitting.value = true;
+        // Simulate a form submission
+        setTimeout(() => {
+          alert(t('contact.contact-form.success'));
+          isSubmitting.value = false;
+          formData.value = { fullname: '', email: '', message: '' };
+        }, 2000);
       }
-    }
+    };
+
+    return {
+      t,
+      formData,
+      isSubmitting,
+      isFormValid,
+      submitForm,
+      airplaneOutline
+    };
   }
-};
+});
 </script>
 
 <style scoped>

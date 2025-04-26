@@ -4,23 +4,19 @@
       <h2 class="h2 article-title">{{ t('contact.title') }}</h2>
     </header>
 
-    <ContactMap />
-    <ContactForm />
-
   </article>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 import { useI18n } from 'vue-i18n';
-import ContactMap from '@/components/contact/ContactMap.vue';
-import ContactForm from '../components/contact/ContactForm.vue';
+// import ContactMap from '@/components/contact/ContactMap.vue';
+// import ContactForm from '../components/contact/ContactForm.vue';
 
 export default defineComponent({
   name: 'ContactView',
   components: {
-    ContactMap,
-    ContactForm
+
   },
   setup() {
     const { t } = useI18n();
