@@ -1,0 +1,96 @@
+{
+  "navbar": {
+    "about": "About",
+    "resume": "Resume",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "tfg": "TFG"
+  },
+  "sidebar": {
+    "job-title": "Computer Engineering Student",
+    "contact-email-title": "EMAIL",
+    "contact-email": "imanolquinber26@gmail.com",
+    "contact-birthday-title": "BIRTHDAY",
+    "contact-birthday": "October 9, 2003",
+    "contact-location-title": "LOCATION",
+    "contact-location": "Telde, Gran Canaria, Canary Islands"
+  },
+  "about": {
+    "title": "About Me",
+    "text": {
+      "p1": "Born in Gran Canaria, I completed my Secondary Education and Baccalaureate at José Arencibia Gil High School. After passing the university entrance exam and being uncertain about my next step, I decided to pursue a Bachelor’s Degree in Computer Engineering at the University of Las Palmas de Gran Canaria. My interest in new technologies and the methodologies applied to everyday situations and scientific purposes inspired this decision.",
+      "p2": "Throughout these years, I have developed a strong passion for learning and growing in various areas, particularly in software development and the adoption of programming best practices.",
+      "p3": "During my final year of studies, I had the opportunity to undertake an internship at Aplicaciones Informáticas Domingo Alonso, the parent company of the Domingo Alonso automotive group. During this experience, I contributed to the development of advanced backend features using modern technologies such as .NET."
+    },
+    "services": {
+      "title": "What I'm doing",
+      "studying": {
+        "title": "Studying",
+        "text": "Engaging in continuous learning and acquiring new skills to stay updated with the latest trends, knowledge and technologies."
+      },
+      "best-practices": {
+        "title": "Best Practices",
+        "text": "Always striving to follow best practices in web development. This includes writing clean code and using version control."
+      },
+      "software-development": {
+        "title": "Software Development",
+        "text": "Interested in the field of software development. Continuously learning and applying new technologies to solve complex problems and improve user experiences."
+      },
+      "keep-investigating": {
+        "title": "Keep Investigating",
+        "text": "Conducting thorough research to provide high-quality insights and information."
+      }
+    },
+    "experience": {
+      "title": "Academic And Professional Experience"
+    }
+  },
+  "resume": {
+    "title": "Resume",
+    "education": {
+      "title": "Education",
+      "university": {
+        "title": "University of Las Palmas de Gran Canaria",
+        "degree": "Bachelor's Degree in Computer Engineering",
+        "date": "2021 - Present",
+        "description": "Bachelor’s Degree in Computer Engineering, acquiring skills in software development, systems engineering, and emerging technologies."
+      },
+      "highschool": {
+        "title": "José Arencibia Gil High School",
+        "degree": "Baccalaureate in Science and Technology",
+        "date": "2019 - 2021",
+        "description": "Secondary education and Technological Baccalaureate, with a focus on science, mathematics, and technology subjects, developing fundamental skills for the engineering field."
+      }
+    },
+    "experience": {
+      "title": "Experience",
+      "internship": {
+        "company": "Aplicaciones Informáticas Domingo Alonso",
+        "position": "Intern Software Developer",
+        "date": "oct. 2024 - dec. 2024",
+        "description": "Final-year curricular internship at AIDA (Aplicaciones Informáticas Domingo Alonso), as part of the Importer Sales team, contributing to the development of key functionalities."
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "types": {
+      "all": "All",
+      "web": "Web Devolopment",
+      "applications": "Applications",
+      "projects": "Projects"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "contact-form": {
+      "title": "Contact Me",
+      "name": "Full Name",
+      "email": "Email Address",
+      "message": "Your Message",
+      "send": "Send Message",
+      "success": "Message sent successfully!",
+      "error": "Error sending message. Please try again later."
+    }
+  }
+}

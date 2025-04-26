@@ -1,11 +1,25 @@
 {
   "devDependencies": {
-    "@types/node": "^22.15.0"
+    "@tsconfig/node22": "^22.0.1",
+    "@types/node": "^22.15.0",
+    "@vue/tsconfig": "^0.7.0"
   },
   "dependencies": {
     "@ionic/core": "^8.5.5",
     "@ionic/vue": "^8.5.5",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vitejs/plugin-vue-jsx": "^4.1.2",
     "ionicons": "^7.4.0",
-    "vue-i18n": "11.1.2"
+    "lucide-vue-next": "^0.503.0",
+    "pinia": "^3.0.2",
+    "vite": "^6.3.3",
+    "vite-plugin-vue-devtools": "^7.7.5",
+    "vue-i18n": "11.1.2",
+    "vue-router": "^4.5.1"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   }
 }
