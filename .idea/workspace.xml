@@ -6,29 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="7ce81d03-1e80-4309-988d-b485fc0f8c81" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/blog-1-BsRCQ6o0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/blog-2-rKXx6vjR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/blog-3-QC0Ind5k.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/blog-6-OUa-t9gq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/icon-photo-CFp9Sc6M.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/index-BUYRWOho.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/logo-1-color-D6t295WB.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/logo-BpkZ1K8d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/logo-CFBmfGNx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/my-avatar-BRxdBVaf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/portfolio_icon-DWVfi55z.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/project-1-DM8epd1E.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/project-2-NfkW7ZPC.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/project-3-BCOTUHMA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/project-4-B6IzUDDq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/project-5-B1iHnel3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/project-6-Bd-G0A4F.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/project-7-DYFirptj.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/project-8-B7K_JXyt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/project-9-BKTJvH7D.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/index-C7uhMWAn.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/index-LmM9Klp-.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/locales/en-US.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/locales/en-US.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/locales/es-ES.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/locales/es-ES.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/locales/fr-FR.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/locales/fr-FR.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/SocialLink.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/SocialLink.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/ContactSection.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/ContactSection.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,17 +180,12 @@
       <workItem from="1745585969366" duration="7928000" />
       <workItem from="1745617970987" duration="13637000" />
       <workItem from="1745635327110" duration="1907000" />
-      <workItem from="1745675901393" duration="3199000" />
+      <workItem from="1745675901393" duration="5636000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-    <option name="additionalRoots">
-      <list>
-        <option value="$PROJECT_DIR$/.venv/Lib/site-packages/panel/dist/dts" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

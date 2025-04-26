@@ -15,6 +15,7 @@ import {
 } from 'lucide-vue-next';
 
 export default defineComponent({
+  name: 'SocialLink',
   components: {
     LinkedinIcon,
     TwitterIcon,

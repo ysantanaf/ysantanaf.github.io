@@ -15,15 +15,6 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import { useI18n } from 'vue-i18n';
-import ContactItem from '@/components/sections/ContactSection.vue';
-import SocialLink from '@/components/common/SocialLink.vue';
-import avatar from '@/assets/images/imanol-image.png.jpg';
-
-// Importa los íconos correctamente
-import mailIcon from '@/assets/images/mail-outline.svg';
-import calendarIcon from '@/assets/images/calendar-outline.svg';
-import locationIcon from '@/assets/images/location-outline.svg';
 
 export default defineComponent({
   name: 'ContactItem',
