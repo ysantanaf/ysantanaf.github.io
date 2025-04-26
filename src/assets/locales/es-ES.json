@@ -20,7 +20,7 @@
     "text": {
       "p1": "Nacido en Gran Canaria, completé la Educación Secundaria Obligatoria y el Bachillerato en el Instituto José Arencibia Gil. Tras superar la prueba de acceso a la universidad y sin tener aún una decisión clara sobre mi futuro, opté por cursar el Grado en Ingeniería Informática en la Universidad de Las Palmas de Gran Canaria. Mi interés por las nuevas tecnologías y las metodologías aplicadas tanto en situaciones cotidianas como en el ámbito científico fue el motor que me llevó a esta decisión.",
       "p2": "Durante estos años, he cultivado una gran motivación por aprender y desarrollarme en diversas áreas, especialmente en el ámbito del desarrollo de software y en la adquisición de buenas prácticas de programación.",
-      "p3": "En mi último año de carrera, tuve la oportunidad de realizar las prácticas curriculares en Aplicaciones Informáticas Domingo Alonso, empresa matriz del grupo automovilístico Domingo Alonso. Durante esta experiencia, contribuí al desarrollo de funcionalidades avanzadas en proyectos de backend utilizando tecnologías modernas como .NET."
+      "p3": "En mi último año de carrera, tuve la oportunidad de realizar las prácticas curriculares en <i>Aplicaciones Informáticas Domingo Alonso</i>, empresa matriz del grupo automovilístico Domingo Alonso. Durante esta experiencia, contribuí al desarrollo de funcionalidades avanzadas en proyectos de backend utilizando tecnologías modernas como .NET."
     },
     "services": {
       "title": "Lo que estoy haciendo",
@@ -65,7 +65,7 @@
     "experience": {
       "title": "Experiencia Profesional",
       "internship": {
-        "company": "Aplicaciones Informáticas Domingo Alonso",
+        "company": "<i>Aplicaciones Informáticas Domingo Alonso</i>",
         "position": "Prácticas Curriculares",
         "date": "oct. 2024 - dic. 2024",
         "description": "Prácticas curriculares de último año en AIDA (<i>Aplicaciones Informáticas Domingo Alonso</i>), formando parte del equipo de Ventas de Importación, contribuyendo al desarrollo de funcionalidades clave."

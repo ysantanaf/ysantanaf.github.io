@@ -20,7 +20,7 @@
     "text": {
       "p1": "Born in Gran Canaria, I completed my Secondary Education and Baccalaureate at José Arencibia Gil High School. After passing the university entrance exam and being uncertain about my next step, I decided to pursue a Bachelor’s Degree in Computer Engineering at the University of Las Palmas de Gran Canaria. My interest in new technologies and the methodologies applied to everyday situations and scientific purposes inspired this decision.",
       "p2": "Throughout these years, I have developed a strong passion for learning and growing in various areas, particularly in software development and the adoption of programming best practices.",
-      "p3": "During my final year of studies, I had the opportunity to undertake an internship at Aplicaciones Informáticas Domingo Alonso, the parent company of the Domingo Alonso automotive group. During this experience, I contributed to the development of advanced backend features using modern technologies such as .NET."
+      "p3": "During my final year of studies, I had the opportunity to undertake an internship at <i>Aplicaciones Informáticas Domingo Alonso</i>, the parent company of the Domingo Alonso automotive group. During this experience, I contributed to the development of advanced backend features using modern technologies such as .NET."
     },
     "services": {
       "title": "What I'm doing",
@@ -65,10 +65,10 @@
     "experience": {
       "title": "Experience",
       "internship": {
-        "company": "Aplicaciones Informáticas Domingo Alonso",
+        "company": "<i>Aplicaciones Informáticas Domingo Alonso</i>",
         "position": "Intern Software Developer",
         "date": "oct. 2024 - dec. 2024",
-        "description": "Final-year curricular internship at AIDA (Aplicaciones Informáticas Domingo Alonso), as part of the Importer Sales team, contributing to the development of key functionalities."
+        "description": "Final-year curricular internship at AIDA (<i>Aplicaciones Informáticas Domingo Alonso</i>), as part of the Importer Sales team, contributing to the development of key functionalities."
       }
     }
   },

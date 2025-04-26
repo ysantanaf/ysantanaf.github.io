@@ -20,7 +20,7 @@
     "text": {
       "p1": "Né à Gran Canaria, j'ai terminé mon enseignement secondaire et mon baccalauréat au Lycée José Arencibia Gil. Après avoir réussi l'examen d'entrée à l'université et ne pas être sûr de mon prochain pas, j'ai décidé de poursuivre un baccalauréat en ingénierie informatique à l'Université de Las Palmas de Gran Canaria. Mon intérêt pour les nouvelles technologies et les méthodologies appliquées aux situations quotidiennes et aux objectifs scientifiques a inspiré cette décision.",
       "p2": "Au cours de ces années, j'ai développé une grande passion pour l'apprentissage et la croissance dans divers domaines, en particulier dans le développement de logiciels et l'adoption des meilleures pratiques de programmation.",
-      "p3": "Au cours de ma dernière année d'études, j'ai eu l'opportunité de faire un stage chez Aplicaciones Informáticas Domingo Alonso, la société mère du groupe automobile Domingo Alonso. Au cours de cette expérience, j'ai contribué au développement de fonctionnalités avancées de backend en utilisant des technologies modernes telles que .NET."
+      "p3": "Au cours de ma dernière année d'études, j'ai eu l'opportunité de faire un stage chez <i>Aplicaciones Informáticas Domingo Alonso</i>, la société mère du groupe automobile Domingo Alonso. Au cours de cette expérience, j'ai contribué au développement de fonctionnalités avancées de backend en utilisant des technologies modernes telles que .NET."
     },
     "services": {
       "title": "Ce que je fais",
@@ -65,10 +65,10 @@
     "experience": {
       "title": "Expérience",
       "internship": {
-        "company": "Aplicaciones Informáticas Domingo Alonso",
+        "company": "<i>Aplicaciones Informáticas Domingo Alonso</i>",
         "position": "Stagiaire Développeur Logiciel",
         "date": "oct. 2024 - déc. 2024",
-        "description": "Stage curriculaire de dernière année chez AIDA (Aplicaciones Informáticas Domingo Alonso), en tant que membre de l'équipe des ventes d'importation, contribuant au développement de fonctionnalités clés."
+        "description": "Stage curriculaire de dernière année chez AIDA (<i>Aplicaciones Informáticas Domingo Alonso</i>), en tant que membre de l'équipe des ventes d'importation, contribuant au développement de fonctionnalités clés."
       }
     }
   },

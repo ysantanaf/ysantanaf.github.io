@@ -6,14 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7ce81d03-1e80-4309-988d-b485fc0f8c81" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/index-C7uhMWAn.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/index-LmM9Klp-.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/locales/en-US.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/locales/en-US.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/locales/es-ES.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/locales/es-ES.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/locales/fr-FR.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/locales/fr-FR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/SocialLink.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/SocialLink.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/ContactSection.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/ContactSection.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/resume/TimelineItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/resume/TimelineItem.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +176,7 @@
       <workItem from="1745585969366" duration="7928000" />
       <workItem from="1745617970987" duration="13637000" />
       <workItem from="1745635327110" duration="1907000" />
-      <workItem from="1745675901393" duration="5636000" />
+      <workItem from="1745675901393" duration="6759000" />
     </task>
     <servers />
   </component>
