@@ -5,11 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ce81d03-1e80-4309-988d-b485fc0f8c81" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/tfg/AcademicSection.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/tfg/HeroSection.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/tfg/MethodologySection.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/tfg/ObjectivesSection.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/tfg/ProjectSection.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/tfg/TechStackSection.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/tfg/VisualizationSection.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/tfg/VizSelector.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/locales/en-US.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/locales/en-US.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/locales/es-ES.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/locales/es-ES.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/locales/fr-FR.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/locales/fr-FR.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact/ContactForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/ContactForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact/ContactMap.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/ContactMap.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/resume/TimelineItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/resume/TimelineItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/ContactView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ContactView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/TfgView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/TfgView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +38,8 @@
         <option value="CSS File" />
         <option value="TypeScript File" />
         <option value="tsconfig.json" />
-        <option value="Vue Composition API Component" />
         <option value="HTML File" />
+        <option value="Vue Composition API Component" />
       </list>
     </option>
   </component>
@@ -176,7 +189,8 @@
       <workItem from="1745585969366" duration="7928000" />
       <workItem from="1745617970987" duration="13637000" />
       <workItem from="1745635327110" duration="1907000" />
-      <workItem from="1745675901393" duration="6759000" />
+      <workItem from="1745675901393" duration="6818000" />
+      <workItem from="1745710359905" duration="2935000" />
     </task>
     <servers />
   </component>

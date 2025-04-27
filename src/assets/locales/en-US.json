@@ -92,5 +92,12 @@
       "success": "Message sent successfully!",
       "error": "Error sending message. Please try again later."
     }
+  },
+  "tfg": {
+    "title": "Final Degree Project",
+    "description": {
+      "p1": "The project consists of the development of a web application for the management of the <i>Domingo Alonso</i> group’s fleet of vehicles. The application will allow the management of the fleet, including functionalities such as vehicle registration, maintenance management, and real-time tracking.",
+      "p2": "The project aims to improve the efficiency and effectiveness of fleet management, providing a modern and user-friendly interface for users."
+    }
   }
 }

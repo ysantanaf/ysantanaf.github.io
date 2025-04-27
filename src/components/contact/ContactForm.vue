@@ -1,39 +1,35 @@
 <template>
   <section class="contact-form">
-    <h3 class="h3 form-title">{{ $t('contact.contact-form.title') }}</h3>
-
+    <h3 class="h3 form-title">{{ t('contact.contact-form.title') }}</h3>
     <form @submit.prevent="submitForm" class="form" data-form>
       <div class="input-wrapper">
         <input
             type="text"
             name="fullname"
             class="form-input"
-            :placeholder="$t('contact.contact-form.name')"
+            :placeholder="t('contact.contact-form.name')"
             required
-            v-model="formData.fullname"
         >
 
         <input
             type="email"
             name="email"
             class="form-input"
-            :placeholder="$t('contact.contact-form.email')"
+            :placeholder="t('contact.contact-form.email')"
             required
-            v-model="formData.email"
         >
       </div>
 
       <textarea
           name="message"
           class="form-input"
-          :placeholder="$t('contact.contact-form.message')"
+          :placeholder="t('contact.contact-form.message')"
           required
-          v-model="formData.message"
       ></textarea>
 
-      <button class="form-btn" type="submit" :disabled="isSubmitting || !isFormValid">
+      <button class="form-btn" type="submit">
         <img :src="airplaneOutline" alt="Enviar" class="svg-icon" />
-        <span>{{ $t('contact.contact-form.send') }}</span>
+        <span>{{ t('contact.contact-form.send') }}</span>
       </button>
     </form>
   </section>
@@ -51,34 +47,10 @@ export default defineComponent({
   },
   setup() {
     const { t } = useI18n();
-    const formData = ref({
-      fullname: '',
-      email: '',
-      message: ''
-    });
-    const isSubmitting = ref(false);
-    const isFormValid = computed(() => {
-      return formData.value.fullname && formData.value.email && formData.value.message;
-    });
 
-    const submitForm = () => {
-      if (isFormValid.value) {
-        isSubmitting.value = true;
-        // Simulate a form submission
-        setTimeout(() => {
-          alert(t('contact.contact-form.success'));
-          isSubmitting.value = false;
-          formData.value = { fullname: '', email: '', message: '' };
-        }, 2000);
-      }
-    };
 
     return {
       t,
-      formData,
-      isSubmitting,
-      isFormValid,
-      submitForm,
       airplaneOutline
     };
   }

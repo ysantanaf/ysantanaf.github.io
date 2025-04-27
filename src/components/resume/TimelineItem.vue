@@ -1,7 +1,7 @@
 <template>
   <li class="timeline-item">
     <h4 class="h4 timeline-item-title" v-html="title"></h4>
-    <span>{{ period }}</span>
+    <span v-html="period"></span>
     <p class="timeline-text" v-html="text"></p>
   </li>
 </template>

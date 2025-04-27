@@ -92,5 +92,12 @@
       "success": "Message envoyé avec succès!",
       "error": "Erreur lors de l'envoi du message. Veuillez réessayer plus tard."
     }
+  },
+  "tfg": {
+    "title": "Projet de Fin d'Études",
+    "description": {
+      "p1": "Le projet de fin d'études est un projet de développement d'une application web pour la gestion des ventes et des stocks dans le secteur automobile. L'application vise à améliorer l'efficacité des processus de vente et de gestion des stocks, en fournissant une interface conviviale et des fonctionnalités avancées.",
+      "p2": "Le projet a été réalisé en utilisant les technologies .NET et Angular, permettant une intégration fluide entre le backend et le frontend. L'application comprend des fonctionnalités telles que la gestion des clients, la gestion des produits, la génération de rapports et l'analyse des ventes."
+    }
   }
 }
