@@ -56,14 +56,23 @@ export default defineComponent({
   justify-content: center;
   align-items: flex-start;
   gap: 15px;
-  margin: 0 -15px;
   padding: 25px;
-  padding-bottom: 25px;
   overflow-x: auto;
   scroll-behavior: smooth;
   overscroll-behavior-inline: contain;
   scroll-snap-type: inline mandatory;
   scroll-padding-inline: 25px;
+}
+
+@media (max-width: 450px) {
+  .experience-list {
+    justify-content: flex-start;
+    padding: 25px 25px 25px;
+  }
+
+  .experience-title {
+    margin-bottom: 15px;
+  }
 }
 
 @media (min-width: 450px) {
@@ -77,17 +86,11 @@ export default defineComponent({
     gap: 50px;
     margin: 0 -30px;
     padding: 45px;
-    scroll-padding-inline: 45px;
+    scroll-padding-inline: 60px;
   }
 
   .experience-title {
     margin-bottom: 25px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .experience-item {
-    min-width: calc(25% - 38px);
   }
 }
 </style>
