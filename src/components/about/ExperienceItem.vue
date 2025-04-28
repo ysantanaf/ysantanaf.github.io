@@ -30,6 +30,9 @@ export default defineComponent({
 
 <style scoped>
 .experience-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-width: 100%;
   scroll-snap-align: center;
 }
@@ -39,6 +42,7 @@ export default defineComponent({
   transition: var(--transition-1);
   max-height: 200px;
   width: auto;
+  margin: auto;
 }
 
 .experience-item img:hover {

@@ -95,6 +95,7 @@
   },
     "tfg": {
         "title": "Trabajo Fin de Grado",
+        "title-2": "Trabajo Fin<br>de Grado",
         "description": {
         "p1": "El Trabajo Fin de Grado (TFG) es un proyecto académico que se realiza al final del Grado en Ingeniería Informática. Su objetivo es aplicar los conocimientos adquiridos a lo largo de la carrera en un proyecto práctico.",
         "p2": "El TFG puede abarcar diversas áreas, como desarrollo de software, inteligencia artificial, redes, bases de datos y más. Los estudiantes trabajan bajo la supervisión de un tutor y presentan su trabajo ante un tribunal evaluador."
