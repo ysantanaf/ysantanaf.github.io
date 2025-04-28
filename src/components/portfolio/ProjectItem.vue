@@ -126,7 +126,7 @@ export default defineComponent({
 
 .project-description {
   font-size: 0.9rem;
-  color: var(--light-gray);
+  color: var(--orange-yellow-crayola);
   line-height: 1.4;
 }
 

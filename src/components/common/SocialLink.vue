@@ -61,6 +61,17 @@ export default defineComponent({
   transition: all var(--transition-1);
 }
 
+.social-icon {
+  stroke: var(--jet);
+  width: 18px;
+  height: 18px;
+  transition: stroke var(--transition-1);
+}
+
+.social-link:hover .social-icon {
+  stroke: var(--light-gray);
+}
+
 .social-link:hover {
   background-color: var(--orange-yellow-crayola);
   transform: translateY(-3px);

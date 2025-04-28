@@ -28,7 +28,7 @@
       ></textarea>
 
       <button class="form-btn" type="submit">
-        <img :src="airplaneOutline" alt="Enviar" class="svg-icon" />
+        <ion-icon :icon="paperPlaneOutline" class="ion-icon"></ion-icon>
         <span>{{ t('contact.contact-form.send') }}</span>
       </button>
     </form>
@@ -38,20 +38,20 @@
 <script>
 import { defineComponent } from 'vue';
 import { useI18n } from 'vue-i18n';
-import airplaneOutline from '@/assets/images/airplane-outline1.svg';
+import { IonIcon } from '@ionic/vue';
+import { paperPlaneOutline } from 'ionicons/icons';
 
 export default defineComponent({
   name: 'ContactForm',
   components: {
-
+    IonIcon
   },
   setup() {
     const { t } = useI18n();
 
-
     return {
       t,
-      airplaneOutline
+      paperPlaneOutline
     };
   }
 });
@@ -60,6 +60,18 @@ export default defineComponent({
 <style scoped>
 .contact-form {
   margin-top: 30px;
+}
+
+.svg-icon {
+  stroke: none; /* Si no necesitas contorno */
+  fill: var(--white-1) !important; /* Forzar el color blanco */
+  width: 20px;
+  height: 20px;
+  transition: fill var(--transition-1);
+}
+
+.social-link:hover .social-icon {
+  stroke: var(--white-1);
 }
 
 .form-title {
@@ -140,12 +152,6 @@ textarea.form-input {
 .form-btn:not(:disabled):hover {
   background-color: var(--orange-yellow-crayola);
   color: var(--eerie-black-1); /* Color para texto e ícono en hover */
-}
-
-.svg-icon {
-  width: 20px;
-  height: 20px;
-  fill: currentColor; /* Hereda el color del texto del botón */
 }
 
 /* Asegurar que el span también herede el color correctamente */
