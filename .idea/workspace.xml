@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7ce81d03-1e80-4309-988d-b485fc0f8c81" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/SocialLink.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/SocialLink.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/ContactForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/ContactForm.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio/ProjectItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/ProjectItem.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/portfolio/ProjectSection.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/ProjectSection.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/PortfolioView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/PortfolioView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +181,8 @@
       <workItem from="1745675901393" duration="6818000" />
       <workItem from="1745710359905" duration="4625000" />
       <workItem from="1745797628569" duration="5551000" />
-      <workItem from="1745853127134" duration="2009000" />
+      <workItem from="1745853127134" duration="2154000" />
+      <workItem from="1746049304782" duration="678000" />
     </task>
     <servers />
   </component>

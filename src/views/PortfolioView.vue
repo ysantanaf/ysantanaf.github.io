@@ -4,8 +4,8 @@
       <h2 class="h2 article-title">{{ t('portfolio.title') }}</h2>
     </header>
 
-    <ProjectFiltersSection />
-    <ProjectSection />
+    <ProjectFiltersSection @filter-change="updateFilter" />
+    <ProjectSection :activeFilter="activeFilter" />
 
     <div class="modal-container" data-modal-container>
       <div class="overlay" data-overlay></div>
@@ -23,25 +23,29 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent, ref } from 'vue';
 import { useI18n } from 'vue-i18n';
 import ProjectSection from '@/components/portfolio/ProjectSection.vue';
 import ProjectFiltersSection from '@/components/portfolio/ProjectFiltersSection.vue';
-import ProjectItem from '@/components/portfolio/ProjectItem.vue';
-import testImage from '@/assets/images/blog-5.jpg';
 
 export default defineComponent({
   name: 'PortfolioView',
   components: {
     ProjectSection,
-    ProjectFiltersSection,
-    ProjectItem
+    ProjectFiltersSection
   },
   setup() {
     const { t } = useI18n();
+    const activeFilter = ref('all');
+
+    const updateFilter = (filter: string) => {
+      activeFilter.value = filter;
+    };
+
     return {
       t,
-      testImage
+      activeFilter,
+      updateFilter
     };
   }
 });

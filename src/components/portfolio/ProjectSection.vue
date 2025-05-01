@@ -3,7 +3,7 @@
     <ul class="project-list">
 
       <ProjectItem
-          v-for="(project, index) in projects"
+          v-for="(project, index) in filteredProjects"
           :key="index"
           :icon="project.icon"
           :alt="project.title"
@@ -30,7 +30,14 @@ export default defineComponent({
   components: {
     ProjectItem
   },
-  setup() {
+  props: {
+    activeFilter: {
+      type: String,
+      required: true,
+      default: 'all'
+    }
+  },
+  setup(props) {
     const { t } = useI18n();
 
     const projects = [
@@ -38,7 +45,7 @@ export default defineComponent({
         icon: project1Image,
         url: 'https://github.com/imanolqb/Practica1_FSI_ImanolQB_CarlosAR',
         title: 'Project 1 FSI',
-        kind: 'Project',
+        kind: 'Projects',
         period: '2023-2024',
         description: 'Uninformed search algorithms for traversing or searching for weighted elements in a graph.'
       },
@@ -46,15 +53,22 @@ export default defineComponent({
         icon: project2Image,
         url: 'https://github.com/imanolqb/Practica2_FSI_ImanolQB_CarlosAR',
         title: 'Project 2 FSI',
-        kind: 'Project',
+        kind: 'Projects',
         period: '2023-2024',
         description: 'Development of an effective neural network for classifying image sets.'
       }
     ];
 
+    const filteredProjects = computed(() => {
+      if (props.activeFilter === 'all') {
+        return projects;
+      }
+      return projects.filter(project => project.kind.split(' ')[0].toLowerCase() === props.activeFilter);
+    });
+
     return {
       t,
-      projects,
+      filteredProjects
     };
   }
 });
