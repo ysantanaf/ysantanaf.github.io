@@ -2,7 +2,7 @@
   <section class="timeline">
     <div class="title-wrapper">
       <div class="icon-box">
-        <img :src="icon" alt="Book icon" class="book-icon" width="20" height="20">
+        <ion-icon :icon="bookOutline" class="ion-icon"></ion-icon>
       </div>
       <h3 class="h3">{{ t('resume.education.title') }}</h3>
     </div>
@@ -26,19 +26,21 @@
 import { defineComponent } from 'vue';
 import { useI18n } from 'vue-i18n';
 import TimelineItem from '@/components/resume/TimelineItem.vue';
-import bookIcon from '@/assets/images/book-outline.svg';
+import { IonIcon } from '@ionic/vue';
+import { bookOutline } from 'ionicons/icons';
 
 export default defineComponent({
   name: 'EducationSection',
   components: {
-    TimelineItem
+    TimelineItem,
+    IonIcon
   },
   setup() {
     const { t } = useI18n();
 
     return {
       t,
-      icon: bookIcon
+      bookOutline
     };
   }
 });
@@ -49,8 +51,10 @@ export default defineComponent({
   margin-bottom: 30px;
 }
 
-.book-icon {
-  filter: invert(100%) brightness(100%);
+.ion-icon {
+  width: 25px;
+  height: 25px;
+  color: var(--orange-yellow-crayola);
 }
 
 .title-wrapper {

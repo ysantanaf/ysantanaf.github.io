@@ -17,21 +17,21 @@
 
       <ul class="contacts-list">
         <ContactItem
-            :icon="mailIcon"
+            :icon="mailOutline"
             :title="t('sidebar.contact-email-title')"
             :content="t('sidebar.contact-email')"
             type="email"
         />
 
         <ContactItem
-            :icon="calendarIcon"
+            :icon="calendarOutline"
             :title="t('sidebar.contact-birthday-title')"
             :content="t(t('sidebar.contact-birthday'))"
             type="text"
         />
 
         <ContactItem
-            :icon="locationIcon"
+            :icon="locationOutline"
             :title="t('sidebar.contact-location-title')"
             :content="t('sidebar.contact-location')"
             type="text"
@@ -65,6 +65,11 @@ import ContactItem from '@/components/sections/ContactSection.vue';
 import SocialLink from '@/components/common/SocialLink.vue';
 import avatar from '@/assets/images/imanol-image.png.jpg';
 
+import { IonIcon } from '@ionic/vue';
+import { mailOutline } from 'ionicons/icons';
+import { calendarOutline } from 'ionicons/icons';
+import { locationOutline } from 'ionicons/icons';
+
 // Importa los íconos correctamente
 import mailIcon from '@/assets/images/mail-outline.svg';
 import calendarIcon from '@/assets/images/calendar-outline.svg';
@@ -74,7 +79,8 @@ export default defineComponent({
   name: 'AppSidebar',
   components: {
     ContactItem,
-    SocialLink
+    SocialLink,
+    IonIcon
   },
   setup() {
     const { t } = useI18n();
@@ -84,7 +90,10 @@ export default defineComponent({
       t,
       mailIcon,
       calendarIcon,
-      locationIcon
+      locationIcon,
+      mailOutline,
+      calendarOutline,
+      locationOutline
     };
   }
 });

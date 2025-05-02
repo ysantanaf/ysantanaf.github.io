@@ -1,7 +1,7 @@
 <template>
   <li class="contact">
     <div class="icon-box">
-      <img :src="icon" :alt="title + ' icon'" width="20" height="20">
+      <ion-icon :icon="icon" class="ion-icon"></ion-icon>
     </div>
     <div class="contact-info">
       <p class="contact-title">{{ title }}</p>
@@ -15,9 +15,13 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+import { IonIcon } from '@ionic/vue';
 
 export default defineComponent({
   name: 'ContactItem',
+  components: {
+    IonIcon
+  },
   props: {
     icon: {
       type: String,
@@ -47,8 +51,10 @@ export default defineComponent({
   gap: 16px;
 }
 
-.icon-box img {
-  filter: invert(1);
+.icon-box .ion-icon {
+  width: 20px;
+  height: 20px;
+  color: var(--orange-yellow-crayola);
 }
 
 .icon-box {

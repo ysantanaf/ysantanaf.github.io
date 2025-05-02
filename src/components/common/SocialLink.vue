@@ -69,7 +69,7 @@ export default defineComponent({
 }
 
 .social-link:hover .social-icon {
-  stroke: var(--light-gray);
+  stroke: var(--jet);
 }
 
 .social-link:hover {

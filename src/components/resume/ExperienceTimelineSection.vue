@@ -2,7 +2,7 @@
   <section class="timeline">
     <div class="title-wrapper">
       <div class="icon-box">
-        <img :src="icon" alt="Software Development icon" class="development-icon" width="20" height="20">
+        <ion-icon :icon="codeWorkingOutline" class="ion-icon"></ion-icon>
       </div>
       <h3 class="h3">{{ t('resume.experience.title') }}</h3>
     </div>
@@ -21,12 +21,14 @@
 import { defineComponent } from 'vue';
 import { useI18n } from 'vue-i18n';
 import TimelineItem from '@/components/resume/TimelineItem.vue';
-import jobIcon from '@/assets/images/job-outline.svg';
+import { IonIcon } from '@ionic/vue';
+import { codeWorkingOutline } from 'ionicons/icons';
 
 export default defineComponent({
   name: 'ExperienceTimelineSection',
   components: {
-    TimelineItem
+    TimelineItem,
+    IonIcon
   },
   setup() {
     const { t } = useI18n();
@@ -35,14 +37,16 @@ export default defineComponent({
 
     return {
       t,
-      icon: jobIcon
+      codeWorkingOutline
     };
   }
 });
 </script>
 
 <style scoped>
-.development-icon {
-  filter: invert(100%) brightness(100%);
+.ion-icon {
+  width: 25px;
+  height: 25px;
+  color: var(--orange-yellow-crayola);
 }
 </style>
