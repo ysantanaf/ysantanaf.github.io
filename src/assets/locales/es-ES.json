@@ -7,7 +7,7 @@
     "tfg": "TFG"
   },
   "sidebar": {
-    "job-title": "Estudiante de Ingeniería Informática",
+    "job-title": "Ingeniero Informático",
     "contact-email-title": "EMAIL",
     "contact-email": "imanolquinber26{'@'}gmail.com",
     "contact-birthday-title": "FECHA DE NACIMIENTO",
@@ -49,16 +49,24 @@
     "title": "Currículum",
     "education": {
       "title": "Educación",
+      "master": {
+        "title": "Máster Oficial en Sistemas Inteligentes y Aplicaciones Numéricas en Ingeniería del Instituto SIANI",
+        "institution": "Universidad de Las Palmas de Gran Canaria",
+        "degree": "Máster Oficial en Sistemas Inteligentes y Aplicaciones Numéricas en Ingeniería",
+        "date": "sep. 2025 - Presente",
+        "description": "Máster Oficial en Sistemas Inteligentes y Aplicaciones Numéricas en Ingeniería, adquiriendo habilidades avanzadas en inteligencia artificial, análisis de datos y aplicaciones numéricas."
+      },
       "university": {
-        "title": "Universidad de Las Palmas de Gran Canaria",
+        "title": "Grado en Ingeniería Informática",
+        "institution": "Universidad de Las Palmas de Gran Canaria",
         "degree": "Grado en Ingeniería Informática",
-        "date": "2021 - Presente",
+        "date": "sep. 2021 - jul. 2025",
         "description": "Grado en Ingeniería Informática, adquiriendo habilidades en desarrollo de software, ingeniería de sistemas y tecnologías emergentes."
       },
       "highschool": {
         "title": "Instituto de Educación Secundaria José Arencibia Gil",
         "degree": "Bachillerato Tecnológico",
-        "date": "2019 - 2021",
+        "date": "sep. 2019 - jun. 2021",
         "description": "Educación Secundaria y Bachillerato Tecnológico, con un enfoque en materias de ciencias, matemáticas y tecnología, desarrollando habilidades fundamentales para el campo de la ingeniería."
       }
     },
@@ -66,10 +74,18 @@
       "title": "Experiencia Profesional",
       "internship": {
         "company": "<i>Aplicaciones Informáticas Domingo Alonso</i>",
-        "position": "Prácticas Curriculares",
+        "position": "Desarrollador de Software En Prácticas",
         "date": "oct. 2024 - dic. 2024",
-        "description": "Prácticas curriculares de último año en AIDA (<i>Aplicaciones Informáticas Domingo Alonso</i>), formando parte del equipo de Ventas de Importación, contribuyendo al desarrollo de funcionalidades clave."
-      }
+        "description": "Prácticas curriculares de último año en AIDA (<i>Aplicaciones Informáticas Domingo Alonso</i>), formando parte del equipo de Ventas de Importación, contribuyendo al desarrollo de funcionalidades clave.",
+        "technologies": "Tecnologías: .NET, C#, SQL Server, Git, Agile"
+      },
+        "aida": {
+          "company": "Aplicaciones Informáticas Domingo Alonso",
+          "position": "Desarrollador de Software Junior",
+          "date": "sep. 2025 - Presente",
+          "description": "Trabajando como Desarrollador de Software Junior en AIDA (<i>Aplicaciones Informáticas Domingo Alonso</i>), centrándose en el desarrollo backend y contribuyendo a la creación de funcionalidades avanzadas para el grupo de automoción.",
+          "technologies": "Tecnologías: .NET, C#, SQL Server, Git, Agile"
+        }
     }
   },
   "portfolio": {

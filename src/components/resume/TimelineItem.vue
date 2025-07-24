@@ -1,5 +1,6 @@
 <template>
   <li class="timeline-item">
+    <h4 class="h4 timeline-item-institution" v-html="institution"></h4>
     <h4 class="h4 timeline-item-title" v-html="title"></h4>
     <span v-html="period"></span>
     <p class="timeline-text" v-html="text"></p>
@@ -15,6 +16,10 @@ export default defineComponent({
     title: {
       type: String,
       required: true
+    },
+    institution: {
+      type: String,
+      default: ''
     },
     period: {
       type: String,
@@ -57,6 +62,13 @@ export default defineComponent({
 }
 
 .timeline-item-title {
+  font-size: var(--fs-6);
+  line-height: 1.3;
+  margin-bottom: 7px;
+  font-style: italic;
+}
+
+.timeline-item-institution {
   font-size: var(--fs-6);
   line-height: 1.3;
   margin-bottom: 7px;

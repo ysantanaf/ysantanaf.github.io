@@ -7,7 +7,7 @@
     "tfg": "TFG"
   },
   "sidebar": {
-    "job-title": "Computer Engineering Student",
+    "job-title": "Computer Engineer",
     "contact-email-title": "EMAIL",
     "contact-email": "imanolquinber26{'@'}gmail.com",
     "contact-birthday-title": "BIRTHDAY",
@@ -49,16 +49,25 @@
     "title": "Resume",
     "education": {
       "title": "Education",
+      "master": {
+        "title": "Official Master's Degree in Intelligent Systems and Numerical Applications in Engineering from the SIANI Institute",
+        "institution": "University of Las Palmas de Gran Canaria",
+        "degree": "Official Master's Degree in Intelligent Systems and Numerical Applications in Engineering",
+        "date": "sep. 2025 - Present",
+        "description": "Official Master's Degree in Intelligent Systems and Numerical Applications in Engineering, acquiring advanced skills in artificial intelligence, data analysis, and numerical applications."
+      },
       "university": {
-        "title": "University of Las Palmas de Gran Canaria",
+        "title": "Degree in Computer Engineering",
+        "institution": "University of Las Palmas de Gran Canaria",
         "degree": "Bachelor's Degree in Computer Engineering",
-        "date": "2021 - Present",
+        "date": "sep. 2021 - jul. 2025",
         "description": "Bachelor’s Degree in Computer Engineering, acquiring skills in software development, systems engineering, and emerging technologies."
       },
       "highschool": {
-        "title": "José Arencibia Gil High School",
+        "title": "Baccalaureate in Science and Technology",
+        "institution": "José Arencibia Gil High School",
         "degree": "Baccalaureate in Science and Technology",
-        "date": "2019 - 2021",
+        "date": "sep. 2019 - jun. 2021",
         "description": "Secondary education and Technological Baccalaureate, with a focus on science, mathematics, and technology subjects, developing fundamental skills for the engineering field."
       }
     },
@@ -68,7 +77,15 @@
         "company": "<i>Aplicaciones Informáticas Domingo Alonso</i>",
         "position": "Intern Software Developer",
         "date": "oct. 2024 - dec. 2024",
-        "description": "Final-year curricular internship at AIDA (<i>Aplicaciones Informáticas Domingo Alonso</i>), as part of the Importer Sales team, contributing to the development of key functionalities."
+        "description": "Final-year curricular internship at AIDA (<i>Aplicaciones Informáticas Domingo Alonso</i>), as part of the Importer Sales team, contributing to the development of key functionalities.",
+        "technologies": "Technologies: .NET, C#, ASP.NET Core, Entity Framework Core, SQL Server, Git, Agile methodologies."
+      },
+      "aida": {
+        "company": "<i>Aplicaciones Informáticas Domingo Alonso</i>",
+        "position": "Junior Software Developer",
+        "date": "sep. 2025 - Present",
+        "description": "Working as a Junior Software Developer at AIDA (<i>Aplicaciones Informáticas Domingo Alonso</i>), focusing on backend development and contributing to the creation of advanced functionalities for the automotive group.",
+        "technologies": "Technologies: .NET, C#, ASP.NET Core, Entity Framework Core, SQL Server, Git, Agile methodologies."
       }
     }
   },

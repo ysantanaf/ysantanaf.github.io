@@ -9,7 +9,14 @@
 
     <ol class="timeline-list">
       <TimelineItem
-          :title="t('resume.experience.internship.company')"
+          :institution="t('resume.experience.aida.company')"
+          :title="t('resume.experience.aida.position')"
+          :period="t('resume.experience.aida.date')"
+          :text="t('resume.experience.aida.description')"
+      />
+      <TimelineItem
+          :institution="t('resume.experience.internship.company')"
+          :title="t('resume.experience.internship.position')"
           :period="t('resume.experience.internship.date')"
           :text="t('resume.experience.internship.description')"
       />

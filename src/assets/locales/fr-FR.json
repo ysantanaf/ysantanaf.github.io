@@ -7,9 +7,9 @@
     "tfg": "TFG"
   },
   "sidebar": {
-    "job-title": "Étudiant en Génie Informatique",
+    "job-title": "Ingénieur Informatique",
     "contact-email-title": "EMAIL",
-    "contact-email": "imanolquinber{'@'}26gmail.com",
+    "contact-email": "imanolquinber26{'@'}gmail.com",
     "contact-birthday-title": "DATE DE NAISSANCE",
     "contact-birthday": "Octobre 9, 2003",
     "contact-location-title": "EMPLACEMENT",
@@ -49,16 +49,25 @@
     "title": "Résumé",
     "education": {
       "title": "Éducation",
+        "master": {
+            "title": "Master Officiel En Systèmes Intelligents Et Applications Numériques En Ingénierie Du SIANI",
+            "institution": "Université de Las Palmas de Gran Canaria",
+            "degree": "Master Officiel En Systèmes Intelligents Et Applications Numériques En Ingénierie",
+            "date": "sep. 2025 - Présent",
+            "description": "Master Officiel en Systèmes Intelligents et Applications Numériques en Ingénierie, acquérant des compétences avancées en intelligence artificielle, analyse de données et applications numériques."
+        },
       "university": {
-        "title": "Université de Las Palmas de Gran Canaria",
+        "title": "Diplôme En Génie Informatique",
+        "institution": "Université de Las Palmas de Gran Canaria",
         "degree": "Diplôme En Génie Informatique",
-        "date": "2021 - Présent",
+        "date": "sep. 2021 - jul. 2025",
         "description": "Baccalauréat en Génie Informatique, acquérir des compétences en développement de logiciels, en ingénierie des systèmes et en technologies émergentes."
       },
       "highschool": {
-        "title": "Lycée José Arencibia Gil",
+        "title": "Baccalauréat En Sciences Et Technologies",
+        "institution": "Lycée José Arencibia Gil",
         "degree": "Baccalauréat en sciences et technologies",
-        "date": "2019 - 2021",
+        "date": "sep. 2019 - jun. 2021",
         "description": "Enseignement secondaire et Baccalauréat Technologique, avec un accent sur les matières scientifiques, mathématiques et technologiques, développant des compétences fondamentales pour le domaine de l'ingénierie."
       }
     },
@@ -68,8 +77,16 @@
         "company": "<i>Aplicaciones Informáticas Domingo Alonso</i>",
         "position": "Stagiaire Développeur Logiciel",
         "date": "oct. 2024 - déc. 2024",
-        "description": "Stage curriculaire de dernière année chez AIDA (<i>Aplicaciones Informáticas Domingo Alonso</i>), en tant que membre de l'équipe des ventes d'importation, contribuant au développement de fonctionnalités clés."
-      }
+        "description": "Stage curriculaire de dernière année chez AIDA (<i>Aplicaciones Informáticas Domingo Alonso</i>), en tant que membre de l'équipe des ventes d'importation, contribuant au développement de fonctionnalités clés.",
+        "technologies": "Technologies: .NET, C#, SQL Server, Git, Agile"
+      },
+        "aida": {
+          "company": "<i>Aplicaciones Informáticas Domingo Alonso</i>",
+          "position": "Développeur Logiciel Junior",
+          "date": "sep. 2025 - Présent",
+          "description": "Je travaille en tant que développeur de logiciels junior chez AIDA (<i>Aplicaciones Informáticas Domingo Alonso</i>), en me concentrant sur le développement backend et en contribuant à la création de fonctionnalités avancées pour le groupe automobile.",
+          "technologies": "Technologies: .NET, C#, SQL Server, Git, Agile"
+        }
     }
   },
   "portfolio": {

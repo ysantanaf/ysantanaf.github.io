@@ -9,12 +9,20 @@
 
     <ol class="timeline-list">
       <TimelineItem
+          :title="t('resume.education.master.title')"
+          :institution="t('resume.education.master.institution')"
+          :period="t('resume.education.master.date')"
+          :text="t('resume.education.master.description')"
+      />
+      <TimelineItem
           :title="t('resume.education.university.title')"
+          :institution="t('resume.education.university.institution')"
           :period="t('resume.education.university.date')"
           :text="t('resume.education.university.description')"
       />
       <TimelineItem
           :title="t('resume.education.highschool.title')"
+          :institution="t('resume.education.highschool.institution')"
           :period="t('resume.education.highschool.date')"
           :text="t('resume.education.highschool.description')"
       />
