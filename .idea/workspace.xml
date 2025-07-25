@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ce81d03-1e80-4309-988d-b485fc0f8c81" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/TFGimage.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/locales/en-US.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/locales/en-US.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/locales/es-ES.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/locales/es-ES.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/locales/fr-FR.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/locales/fr-FR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio/ProjectSection.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/ProjectSection.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/resume/EducationSection.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/resume/EducationSection.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/resume/ExperienceTimelineSection.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/resume/ExperienceTimelineSection.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/resume/TimelineItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/resume/TimelineItem.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +181,7 @@
       <workItem from="1746201486760" duration="1412000" />
       <workItem from="1753383190571" duration="845000" />
       <workItem from="1753384053197" duration="7000" />
-      <workItem from="1753391687479" duration="6669000" />
+      <workItem from="1753391687479" duration="7344000" />
     </task>
     <servers />
   </component>
