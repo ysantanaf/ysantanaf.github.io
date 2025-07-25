@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7ce81d03-1e80-4309-988d-b485fc0f8c81" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +74,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "vue-dev",
+    "git-widget-placeholder": "gh-pages",
     "javascript.nodejs.core.library.configured.version": "22.17.1",
     "javascript.nodejs.core.library.typings.version": "22.16.5",
     "last_opened_file_path": "C:/Users/imano/Desktop/IMANOL/Pagina Personal/src/assets/images",
@@ -181,7 +183,7 @@
       <workItem from="1746201486760" duration="1412000" />
       <workItem from="1753383190571" duration="845000" />
       <workItem from="1753384053197" duration="7000" />
-      <workItem from="1753391687479" duration="8152000" />
+      <workItem from="1753391687479" duration="9345000" />
     </task>
     <servers />
   </component>
