@@ -62,12 +62,6 @@ main {
     padding: 60px 25px;
   }
 
-  .sidebar {
-    position: sticky;
-    top: 60px;
-    flex: 0 0 300px;
-  }
-
   .main-content {
     flex: 1;
   }

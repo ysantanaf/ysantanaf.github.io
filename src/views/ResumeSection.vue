@@ -7,11 +7,18 @@
     <EducationSection />
     <ExperienceTimelineSection />
 
+    <a
+        :href="cvHref"
+        download
+        class="download-cv-btn"
+    >
+      {{ t('resume.download_cv') }}
+    </a>
   </article>
 </template>
 
 <script lang="ts">
-import { defineComponent, computed } from 'vue';
+import { defineComponent, computed, ref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { useRoute } from 'vue-router';
 import EducationSection from '@/components/resume/EducationSection.vue';
@@ -24,8 +31,27 @@ export default defineComponent({
     ExperienceTimelineSection
   },
   setup() {
-    const { t } = useI18n();
+    const { t, locale } = useI18n();
     const route = useRoute();
+
+    const cvHref = ref(getCvHref(locale.value));
+
+    function getCvHref(lang: string) {
+      const shortLang = lang.split('-')[0];
+      switch (shortLang) {
+        case 'es':
+          return '/cvs/ibqb_cv_es.pdf';
+        case 'fr':
+          return '/cvs/ibqb_cv_fr.pdf';
+        case 'en':
+        default:
+          return '/cvs/ibqb_cv_en.pdf';
+      }
+    }
+
+    watch(locale, (nuevo) => {
+      cvHref.value = getCvHref(nuevo);
+    });
 
     const articleClass = computed(() => {
       return route.name === 'resume' ? 'resume active' : 'resume';
@@ -33,7 +59,8 @@ export default defineComponent({
 
     return {
       t,
-      articleClass
+      articleClass,
+      cvHref
     };
   }
 });
@@ -54,6 +81,23 @@ export default defineComponent({
   display: block;
   animation: fade 0.5s ease backwards;
 }
+
+.download-cv-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background: var(--text-gradient-yellow);
+  color: #222;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+.download-cv-btn:hover {
+  background: var(--jet);
+  color: #fff;
+}
+
 
 .article-title {
   position: relative;

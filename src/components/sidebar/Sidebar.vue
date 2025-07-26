@@ -59,9 +59,9 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import {defineComponent, ref} from 'vue';
 import { useI18n } from 'vue-i18n';
-import ContactItem from '@/components/sections/ContactSection.vue';
+import ContactItem from '@/components/sections/ContactItem.vue';
 import SocialLink from '@/components/common/SocialLink.vue';
 import avatar from '@/assets/images/imanol-image.png.jpg';
 
@@ -84,6 +84,7 @@ export default defineComponent({
   },
   setup() {
     const { t } = useI18n();
+    const isExpanded = ref(false);
 
     return {
       avatar,
@@ -93,7 +94,8 @@ export default defineComponent({
       locationIcon,
       mailOutline,
       calendarOutline,
-      locationOutline
+      locationOutline,
+      isExpanded
     };
   }
 });
@@ -176,7 +178,7 @@ export default defineComponent({
   .sidebar {
     position: sticky;
     top: 60px;
-    flex: 0 0 300px;
+    flex: 0 0 350px;
   }
 
   .sidebar-info {
