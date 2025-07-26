@@ -23,7 +23,7 @@ import { useI18n } from 'vue-i18n';
 import ProjectItem from '@/components/portfolio/ProjectItem.vue';
 import project1Image from '@/assets/images/blog-4.jpg';
 import project2Image from '@/assets/images/blog-5.jpg';
-import TFGimage from '@/assets/images/tfgImage.png';
+import tfgImage from '@/assets/images/tfgimage.png'
 import testImage from '@/assets/images/blog-5.jpg';
 
 export default defineComponent({
@@ -59,7 +59,7 @@ export default defineComponent({
         description: 'Development of an effective neural network for classifying image sets.'
       },
       {
-        icon: TFGimage,
+        icon: tfgImage,
         url: 'https://github.com/imanolqb/TFG-Oceanographic-data-for-NPP-estimation',
         title: 'TFG Oceanographic Data',
         kind: 'Projects',
