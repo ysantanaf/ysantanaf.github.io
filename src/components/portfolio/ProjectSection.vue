@@ -23,7 +23,7 @@ import { useI18n } from 'vue-i18n';
 import ProjectItem from '@/components/portfolio/ProjectItem.vue';
 import project1Image from '@/assets/images/blog-4.jpg';
 import project2Image from '@/assets/images/blog-5.jpg';
-import tfgImage from '@/assets/images/tfgimage.png'
+import tfgImage from '@/assets/images/TFGimage.png'
 import testImage from '@/assets/images/blog-5.jpg';
 
 export default defineComponent({
