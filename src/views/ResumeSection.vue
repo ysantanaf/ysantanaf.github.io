@@ -23,6 +23,9 @@ import { useI18n } from 'vue-i18n';
 import { useRoute } from 'vue-router';
 import EducationSection from '@/components/resume/EducationSection.vue';
 import ExperienceTimelineSection from '@/components/resume/ExperienceTimelineSection.vue';
+import frPdf from '../../cvs/ibqb_cv_fr.pdf';
+import esPdf from '../../cvs/ibqb_cv_es.pdf';
+import enPdf from '../../cvs/ibqb_cv_en.pdf';
 
 export default defineComponent({
   name: 'ResumeView',
@@ -40,12 +43,12 @@ export default defineComponent({
       const shortLang = lang.split('-')[0];
       switch (shortLang) {
         case 'es':
-          return '/cvs/ibqb_cv_es.pdf';
+          return esPdf;
         case 'fr':
-          return '/cvs/ibqb_cv_fr.pdf';
+          return frPdf;
         case 'en':
         default:
-          return '/cvs/ibqb_cv_en.pdf';
+          return enPdf;
       }
     }
 
